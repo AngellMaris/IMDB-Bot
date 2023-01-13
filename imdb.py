@@ -7,7 +7,7 @@ from random import randint
 import numpy as np, pandas as pd
 import seaborn as sns
 
-# Define o intervalo de páginas a serem coletadas
+# Define o intervalo de páginas a serem coletadas lalala
 pages = np.arange(1, 5, 50)
 
 # Define os headers para a requisição
@@ -97,7 +97,7 @@ for page in pages:
            else:
                votes.append(None)
               
-# Criação do DataFrame com as informações coletadas
+# Criação do DataFrame com as informações coletadas lalala
 sci_fi_df = pd.DataFrame({'filme': titles,
                       'ano': years,
                       'genero': genres,
